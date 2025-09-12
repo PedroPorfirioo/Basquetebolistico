@@ -110,21 +110,10 @@
             color: black;
             margin-left: 320px;
             font-weight: bold;
-            font-size: x-large;
+            font-size: large;
         }
 
 
-
-        .cardg {
-            max-width: 1000px;
-            margin: 60px auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            padding: 40px;
-            text-align: center;
-            font-family: "Roboto Flex", sans-serif;
-        }
 
         .cardg h2 {
             margin-top: 0%;
@@ -141,8 +130,10 @@
         }
 
         .carditem {
+            max-width: 430px;
+            max-height: 350px;
             background-color: aliceblue;
-            padding: 20px;
+            padding: 25px;
             border-radius: 10px;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
             color: #333;
@@ -154,7 +145,6 @@
         .carditem:hover {
             transform: scale(1.05);
         }
-
 
         .carditem img {
             display: block;
