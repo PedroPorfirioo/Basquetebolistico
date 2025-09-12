@@ -1,0 +1,164 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+
+        header {
+            background-color: #8b1c41;
+            padding: 5px 40px;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .header img {
+            width: 120px;
+        }
+
+        .footer {
+            margin-top: auto;
+            position: relative;
+            color: black;
+            text-align: center;
+            padding: 15px 0;
+            border-top: 1px solid rgba(255, 136, 0, 0.678);
+        }
+
+        .noticias {
+            position: relative;
+            width: 650px;
+            height: 400px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            color: white;
+            margin-top: 25px;
+            margin-left: 225px;
+        }
+
+        .noticias img {
+            width: 650px;
+            height: 450px;
+            object-fit: cover;
+            filter: brightness(70%);
+            transition: transform 0.3s;
+        }
+
+        .noticias:hover img {
+            transform: scale(1.03);
+        }
+
+        .conteudo {
+            position: absolute;
+            bottom: 0;
+            padding: 20px;
+        }
+
+        .tag {
+            background: #ff4c00;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            padding: 4px 10px;
+            border-radius: 3px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+
+        .titulo {
+            font-size: 22px;
+            font-weight: bold;
+            line-height: 1.3;
+            margin: 10px 0;
+        }
+
+        .datag {
+            font-size: 12px;
+            color: #ddd;
+        }
+
+        .nav {
+            display: flex;
+            position: absolute;
+            top: 40px;
+            right: 135px;
+            background: #8b1c41;
+            color: #ffffff;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            transition: color 0.2s;
+            margin-left: 50px;
+            font-size: 15px;
+        }
+
+        .nav a:hover {
+            color: #ff5912;
+        }
+
+
+        .check {
+            max-width: 800px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            color: #000000;
+        }
+
+        .pedido {
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            color: #000000;
+            color: #000000;
+        }
+
+
+        .pedido h2 {
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        .pedido ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .pedido li {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+        }
+
+        .total {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .pagamento-btn {
+            display: inline-block;
+            background-color: rgb(219, 108, 3);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .pagamento-btn:hover {
+            opacity: 0.9;
+        }
