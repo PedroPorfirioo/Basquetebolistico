@@ -1,0 +1,120 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+
+        .site-header {
+            background-color: #8b1c41;
+            height: 100px;
+            position: relative;
+        }
+
+        .header-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            height: 100%;
+        }
+
+        .nav {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .nav-left {
+            justify-content: flex-end;
+        }
+
+        .nav-right {
+            justify-content: flex-start;
+        }
+
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 8px;
+            margin-bottom: 65px;
+        }
+
+        .nav a:hover {
+            color: #ff5912;
+        }
+
+        .logo-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(-10%);
+        }
+
+        .logo-img {
+            width: 180px;
+        }
+
+        .footer {
+            margin-top: auto;
+            position: relative;
+            color: black;
+            text-align: center;
+            padding: 15px 0;
+            border-top: 1px solid rgba(255, 136, 0, 0.678);
+        }
+
+        .passagens {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            /* ocupa espaço disponível */
+            text-align: center;
+            padding: 20px;
+            gap: 20px;
+            /* espaço entre os elementos dentro de passagens */
+        }
+
+        .azulzinho {
+            color: #1d00ea;
+            font-weight: bold;
+        }
+
+        .destino select,
+        .destino input,
+        .destino button {
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            min-width: 150px;
+        }
+
+        .destino {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .destino button {
+            background-color: #1d00ea;
+            color: white;
+            cursor: pointer;
+        }
+
+        .destino button:hover {
+            background-color: #0000c9;
+        }
+
+        .tt {
+            color: black;
+            font-weight: bold;
+            padding: 100px;
+            top: 100px;
+        }
